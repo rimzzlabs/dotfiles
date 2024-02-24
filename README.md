@@ -64,3 +64,8 @@ nix-shell -p git
 > `
 git clone https://github.com/maulansdqn/nixos-wsl ~/.config/
 `
+
+## Build
+1. Install zero to nix `curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install`
+2. clone repo: `git clone git@gihub.com:rimzzlabs/dotfiles ~/.config/dotfiles`
+3. run `sh build.sh`
