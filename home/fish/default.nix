@@ -20,6 +20,7 @@
       gad = "git add";
       gbm = "git branch -M";
       pn = "pnpm";
+      nixb = "nix run ~/.config/dotfiles switch -- --flake ~/.config/dotfiles --impure --accept-flake-config" 
     }
     };
 }
