@@ -3,7 +3,6 @@
     enable = true;
     userName = "Rizki Maulana Citra";
     userEmail = "rmaulana.citra@gmail.com";
-    signing
     aliases = {
       glo = "git log --online";
       gl = "git log";
