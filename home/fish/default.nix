@@ -1,6 +1,7 @@
 {
   programs.fish = {
     enable = true;
+    shellInit = "starship init fish | source";
     shellAliases = {
       gc = "git clone";
       gst = "git status";
@@ -10,7 +11,6 @@
       gp = "git pull";
       gfo = "git fetch origin";
       gf = "git fetch";
-      gbm = "git branch -M";
       gbv = "git branch -v";
       gbd = "git branch -D";
       gb = "git branch";
@@ -20,7 +20,7 @@
       gad = "git add";
       gbm = "git branch -M";
       pn = "pnpm";
-      nixb = "nix run ~/.config/dotfiles switch -- --flake ~/.config/dotfiles --impure --accept-flake-config" 
-    }
+      nixb = "nix run ~/.config/dotfiles switch -- --flake ~/.config/dotfiles --impure --accept-flake-config"; 
+      };
     };
 }

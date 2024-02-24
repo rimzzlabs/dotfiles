@@ -14,7 +14,7 @@
       gbd = "git branch -D";
     };
     extraConfig = {
-      commit = { gpgsign = true };
+      commit = { gpgsign = true; };
       pull = { ff = "only"; rebase = true;};
       init = { defaultBranch = "main"; };
       push = { autoSetupRemote = true; };
