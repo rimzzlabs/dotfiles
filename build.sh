@@ -1,0 +1,1 @@
+nix run --accept-flake-config ~/.config/dotfiles switch -- --flake ~/.config/dotfiles --impure
