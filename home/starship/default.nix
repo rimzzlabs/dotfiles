@@ -69,7 +69,7 @@
         format = "\[[as $symbol]($style)\]";
       };
       time = {
-        format = "\[[$time]($style)\]"
+        format = "\[[$time]($style)\]";
       };
     };
   };
