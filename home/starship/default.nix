@@ -57,7 +57,7 @@
         format = "\[[$symbol$version]($style)\]";
       };
       python = {
-        format = "\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]";
+        format = "\[[$symbol $pyenv_prefix($version)(\($virtualenv\))]($style)\]";
       };
       ruby = {
         format = "\[[$symbol($version)]($style)\]";
