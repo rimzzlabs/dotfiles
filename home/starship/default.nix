@@ -17,7 +17,7 @@
         format = "\[[on $symbol$branch]($style)\]";
       };
       git_status = {
-        format = "'([\[$all_status$ahead_behind\]]($style))'";
+        format = "([\[$all_status$ahead_behind\]]($style))";
       };
       fossil_branch = {
         format = "\[[$symbol$branch]($style)\]";
@@ -63,7 +63,7 @@
         format = "\[[$symbol($version)]($style)\]";
       };
       rust = {
-        format = "\[[$symbol($version)]($style)\]"
+        format = "\[[$symbol($version)]($style)\]";
       };
       sudo = {
         format = "\[[as $symbol]($style)\]";
