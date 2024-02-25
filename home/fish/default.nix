@@ -1,6 +1,7 @@
 {
   programs.fish = {
     enable = true;
+    interactiveShellInit = "starship init fish | source";
     shellInit = "starship init fish | source";
     shellAliases = {
       gc = "git clone";
